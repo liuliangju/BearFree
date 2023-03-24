@@ -108,8 +108,6 @@
 		18E914232266C7B5005E6027 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18E914262266C7B5005E6027 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18E914282266C7B5005E6027 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		18E914312266C7B5005E6027 /* BearSSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BearSSTests.swift; sourceTree = "<group>"; };
-		18E914332266C7B5005E6027 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18E914402266C9B3005E6027 /* PacketTunnel.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = PacketTunnel.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		18E914422266C9B3005E6027 /* PacketTunnelProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PacketTunnelProvider.swift; sourceTree = "<group>"; };
 		18E914442266C9B3005E6027 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -184,7 +182,6 @@
 			isa = PBXGroup;
 			children = (
 				18E9141B2266C7B4005E6027 /* BearSS */,
-				18E914302266C7B5005E6027 /* BearSSTests */,
 				18E914412266C9B3005E6027 /* PacketTunnel */,
 				18F3C6432293D7F800D79C4A /* freeWidget */,
 				18E9141A2266C7B4005E6027 /* Products */,
@@ -215,15 +212,6 @@
 				18E914282266C7B5005E6027 /* Info.plist */,
 			);
 			path = BearSS;
-			sourceTree = "<group>";
-		};
-		18E914302266C7B5005E6027 /* BearSSTests */ = {
-			isa = PBXGroup;
-			children = (
-				18E914312266C7B5005E6027 /* BearSSTests.swift */,
-				18E914332266C7B5005E6027 /* Info.plist */,
-			);
-			path = BearSSTests;
 			sourceTree = "<group>";
 		};
 		18E914412266C9B3005E6027 /* PacketTunnel */ = {
