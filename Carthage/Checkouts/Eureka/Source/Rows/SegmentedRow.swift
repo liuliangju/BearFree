@@ -23,7 +23,6 @@
 // THE SOFTWARE.
 
 import Foundation
-import UIKit
 
 // MARK: SegmentedCell
 
@@ -47,7 +46,6 @@ open class SegmentedCell<T: Equatable> : Cell<T>, CellType {
         self.titleLabel = self.textLabel
         self.titleLabel?.translatesAutoresizingMaskIntoConstraints = false
         self.titleLabel?.setContentHuggingPriority(UILayoutPriority(rawValue: 500), for: .horizontal)
-        self.titleLabel?.setContentCompressionResistancePriority(.defaultLow, for: .horizontal)
 
         NotificationCenter.default.addObserver(forName: UIApplication.willResignActiveNotification, object: nil, queue: nil) { [weak self] _ in
             guard let me = self else { return }

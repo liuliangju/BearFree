@@ -23,7 +23,6 @@
 // THE SOFTWARE.
 
 import Foundation
-import UIKit
 
 protocol Disableable: Taggable {
     func evaluateDisabled()

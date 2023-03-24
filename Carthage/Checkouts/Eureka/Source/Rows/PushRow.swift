@@ -23,7 +23,6 @@
 // THE SOFTWARE.
 
 import Foundation
-import UIKit
 
 open class _PushRow<Cell: CellType>: SelectorRow<Cell> where Cell: BaseCell {
 

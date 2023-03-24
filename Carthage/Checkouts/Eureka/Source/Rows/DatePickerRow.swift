@@ -23,7 +23,6 @@
 // THE SOFTWARE.
 
 import Foundation
-import UIKit
 
 open class DatePickerCell: Cell<Date>, CellType {
 

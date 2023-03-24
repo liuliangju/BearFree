@@ -64,8 +64,7 @@ The `DDLog` header file defines the `DDLogger` protocol. It consists of only 3 m
 
 @end
 ```
-<br/>
-<br/>
+
 Furthermore, **there is a base logger implementation one can extend** (`DDAbstractLogger`) that will automatically implement 2 of the 3 mandatory methods (`logFormatter` & `setLogFormatter:`). So implementing a logger can be pretty straight-forward.
 
 ### Skeleton Implementation
@@ -128,7 +127,7 @@ The DDLogMessage object encapsulates the information about a log message. It is 
 @property (readonly, nonatomic) NSString *fileName;
 @property (readonly, nonatomic) NSString *function;
 @property (readonly, nonatomic) NSUInteger line;
-@property (readonly, nonatomic) id tag;
+@property (readonly, nonatomic) id representedObject;
 @property (readonly, nonatomic) DDLogMessageOptions options;
 @property (readonly, nonatomic) NSDate *timestamp;
 @property (readonly, nonatomic) NSString *threadID; // ID as it appears in NSLog calculated from the machThreadID

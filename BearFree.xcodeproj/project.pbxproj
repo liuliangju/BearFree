@@ -12,7 +12,6 @@
 		18E914222266C7B4005E6027 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18E914202266C7B4005E6027 /* Main.storyboard */; };
 		18E914242266C7B5005E6027 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18E914232266C7B5005E6027 /* Assets.xcassets */; };
 		18E914272266C7B5005E6027 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18E914252266C7B5005E6027 /* LaunchScreen.storyboard */; };
-		18E914322266C7B5005E6027 /* BearSSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E914312266C7B5005E6027 /* BearSSTests.swift */; };
 		18E914432266C9B3005E6027 /* PacketTunnelProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E914422266C9B3005E6027 /* PacketTunnelProvider.swift */; };
 		18E914482266C9B3005E6027 /* PacketTunnel.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 18E914402266C9B3005E6027 /* PacketTunnel.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		18E91468226717E2005E6027 /* CocoaAsyncSocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18E91455226717AF005E6027 /* CocoaAsyncSocket.framework */; };
@@ -54,36 +53,15 @@
 		18E9149F22672657005E6027 /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18E9149D22672644005E6027 /* NetworkExtension.framework */; };
 		18E914A122672C91005E6027 /* Eureka.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18E914A022672C91005E6027 /* Eureka.framework */; };
 		18E914A322672DBB005E6027 /* Eureka.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 18E914A022672C91005E6027 /* Eureka.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		18F3C6422293D7F800D79C4A /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18F3C62D2293D7BB00D79C4A /* NotificationCenter.framework */; };
-		18F3C6452293D7F800D79C4A /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F3C6442293D7F800D79C4A /* TodayViewController.swift */; };
-		18F3C6482293D7F800D79C4A /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18F3C6462293D7F800D79C4A /* MainInterface.storyboard */; };
-		18F3C64C2293D7F800D79C4A /* freeWidget.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 18F3C6412293D7F800D79C4A /* freeWidget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		18F3C6512293DBF200D79C4A /* VpnManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E9147322671B28005E6027 /* VpnManager.swift */; };
-		18F3C6522293E40400D79C4A /* NEKitRule.conf in Resources */ = {isa = PBXBuildFile; fileRef = 18E9149B2267220B005E6027 /* NEKitRule.conf */; };
-		18F3C6552293EEBF00D79C4A /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18E9149D22672644005E6027 /* NetworkExtension.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		18E9142E2266C7B5005E6027 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 18E914112266C7B4005E6027 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 18E914182266C7B4005E6027;
-			remoteInfo = BearSS;
-		};
 		18E914462266C9B3005E6027 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 18E914112266C7B4005E6027 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 18E9143F2266C9B3005E6027;
 			remoteInfo = PacketTunnel;
-		};
-		18F3C64A2293D7F800D79C4A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 18E914112266C7B4005E6027 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 18F3C6402293D7F800D79C4A;
-			remoteInfo = freeWidget;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -94,7 +72,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				18F3C64C2293D7F800D79C4A /* freeWidget.appex in Embed App Extensions */,
 				18E914482266C9B3005E6027 /* PacketTunnel.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
@@ -131,7 +108,6 @@
 		18E914232266C7B5005E6027 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18E914262266C7B5005E6027 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18E914282266C7B5005E6027 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		18E9142D2266C7B5005E6027 /* BearFreeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BearFreeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18E914312266C7B5005E6027 /* BearSSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BearSSTests.swift; sourceTree = "<group>"; };
 		18E914332266C7B5005E6027 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18E914402266C9B3005E6027 /* PacketTunnel.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = PacketTunnel.appex; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -155,7 +131,6 @@
 		18E9149D22672644005E6027 /* NetworkExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NetworkExtension.framework; path = System/Library/Frameworks/NetworkExtension.framework; sourceTree = SDKROOT; };
 		18E914A022672C91005E6027 /* Eureka.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Eureka.framework; path = Carthage/Build/iOS/Eureka.framework; sourceTree = "<group>"; };
 		18F3C62D2293D7BB00D79C4A /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
-		18F3C6412293D7F800D79C4A /* freeWidget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = freeWidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		18F3C6442293D7F800D79C4A /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
 		18F3C6472293D7F800D79C4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
 		18F3C6492293D7F800D79C4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -183,13 +158,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		18E9142A2266C7B5005E6027 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		18E9143D2266C9B3005E6027 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -206,15 +174,6 @@
 				18E91470226717E2005E6027 /* tun2socks.framework in Frameworks */,
 				18E91471226717E2005E6027 /* Yaml.framework in Frameworks */,
 				18E91472226717E2005E6027 /* NEKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		18F3C63E2293D7F800D79C4A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				18F3C6422293D7F800D79C4A /* NotificationCenter.framework in Frameworks */,
-				18F3C6552293EEBF00D79C4A /* NetworkExtension.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -237,9 +196,7 @@
 			isa = PBXGroup;
 			children = (
 				18E914192266C7B4005E6027 /* BearFree.app */,
-				18E9142D2266C7B5005E6027 /* BearFreeTests.xctest */,
 				18E914402266C9B3005E6027 /* PacketTunnel.appex */,
-				18F3C6412293D7F800D79C4A /* freeWidget.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -328,30 +285,11 @@
 			);
 			dependencies = (
 				18E914472266C9B3005E6027 /* PBXTargetDependency */,
-				18F3C64B2293D7F800D79C4A /* PBXTargetDependency */,
 			);
 			name = BearFree;
 			productName = BearSS;
 			productReference = 18E914192266C7B4005E6027 /* BearFree.app */;
 			productType = "com.apple.product-type.application";
-		};
-		18E9142C2266C7B5005E6027 /* BearFreeTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 18E914392266C7B5005E6027 /* Build configuration list for PBXNativeTarget "BearFreeTests" */;
-			buildPhases = (
-				18E914292266C7B5005E6027 /* Sources */,
-				18E9142A2266C7B5005E6027 /* Frameworks */,
-				18E9142B2266C7B5005E6027 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				18E9142F2266C7B5005E6027 /* PBXTargetDependency */,
-			);
-			name = BearFreeTests;
-			productName = BearSSTests;
-			productReference = 18E9142D2266C7B5005E6027 /* BearFreeTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		18E9143F2266C9B3005E6027 /* PacketTunnel */ = {
 			isa = PBXNativeTarget;
@@ -368,23 +306,6 @@
 			name = PacketTunnel;
 			productName = PacketTunnel;
 			productReference = 18E914402266C9B3005E6027 /* PacketTunnel.appex */;
-			productType = "com.apple.product-type.app-extension";
-		};
-		18F3C6402293D7F800D79C4A /* freeWidget */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 18F3C64D2293D7F800D79C4A /* Build configuration list for PBXNativeTarget "freeWidget" */;
-			buildPhases = (
-				18F3C63D2293D7F800D79C4A /* Sources */,
-				18F3C63E2293D7F800D79C4A /* Frameworks */,
-				18F3C63F2293D7F800D79C4A /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = freeWidget;
-			productName = freeWidget;
-			productReference = 18F3C6412293D7F800D79C4A /* freeWidget.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
@@ -411,27 +332,9 @@
 							};
 						};
 					};
-					18E9142C2266C7B5005E6027 = {
-						CreatedOnToolsVersion = 10.2;
-						TestTargetID = 18E914182266C7B4005E6027;
-					};
 					18E9143F2266C9B3005E6027 = {
 						CreatedOnToolsVersion = 10.2;
 						SystemCapabilities = {
-							com.apple.NetworkExtensions.iOS = {
-								enabled = 1;
-							};
-							com.apple.VPNLite = {
-								enabled = 1;
-							};
-						};
-					};
-					18F3C6402293D7F800D79C4A = {
-						CreatedOnToolsVersion = 10.2.1;
-						SystemCapabilities = {
-							com.apple.ApplicationGroups.iOS = {
-								enabled = 1;
-							};
 							com.apple.NetworkExtensions.iOS = {
 								enabled = 1;
 							};
@@ -456,9 +359,7 @@
 			projectRoot = "";
 			targets = (
 				18E914182266C7B4005E6027 /* BearFree */,
-				18E9142C2266C7B5005E6027 /* BearFreeTests */,
 				18E9143F2266C9B3005E6027 /* PacketTunnel */,
-				18F3C6402293D7F800D79C4A /* freeWidget */,
 			);
 		};
 /* End PBXProject section */
@@ -475,26 +376,10 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		18E9142B2266C7B5005E6027 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		18E9143E2266C9B3005E6027 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		18F3C63F2293D7F800D79C4A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				18F3C6482293D7F800D79C4A /* MainInterface.storyboard in Resources */,
-				18F3C6522293E40400D79C4A /* NEKitRule.conf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -511,14 +396,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		18E914292266C7B5005E6027 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				18E914322266C7B5005E6027 /* BearSSTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		18E9143C2266C9B3005E6027 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -527,32 +404,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		18F3C63D2293D7F800D79C4A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				18F3C6512293DBF200D79C4A /* VpnManager.swift in Sources */,
-				18F3C6452293D7F800D79C4A /* TodayViewController.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		18E9142F2266C7B5005E6027 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 18E914182266C7B4005E6027 /* BearFree */;
-			targetProxy = 18E9142E2266C7B5005E6027 /* PBXContainerItemProxy */;
-		};
 		18E914472266C9B3005E6027 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 18E9143F2266C9B3005E6027 /* PacketTunnel */;
 			targetProxy = 18E914462266C9B3005E6027 /* PBXContainerItemProxy */;
-		};
-		18F3C64B2293D7F800D79C4A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 18F3C6402293D7F800D79C4A /* freeWidget */;
-			targetProxy = 18F3C64A2293D7F800D79C4A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -635,7 +493,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -690,7 +548,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -706,20 +564,23 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = BearSS/BearSS.entitlements;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = PN45C5W9UV;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 343BR65R49;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = BearSS/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.zly.BearSS;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobilewise.vpn;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = VPN_DEV;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -731,64 +592,23 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = BearSS/BearSS.entitlements;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = PN45C5W9UV;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = BearSS/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.zly.BearSS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		18E9143A2266C7B5005E6027 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = PN45C5W9UV;
-				INFOPLIST_FILE = BearSSTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.zly.BearSSTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BearFree.app/BearFree";
-			};
-			name = Debug;
-		};
-		18E9143B2266C7B5005E6027 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = PN45C5W9UV;
-				INFOPLIST_FILE = BearSSTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.zly.BearSSTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BearFree.app/BearFree";
 			};
 			name = Release;
 		};
@@ -796,21 +616,24 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = PacketTunnel/PacketTunnel.entitlements;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = PN45C5W9UV;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 343BR65R49;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = PacketTunnel/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.zly.BearSS.PacketTunnel;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mobilewise.vpn.network-extension";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "vpn-ext_DEV";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -821,61 +644,24 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = PacketTunnel/PacketTunnel.entitlements;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = PN45C5W9UV;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 343BR65R49;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = PacketTunnel/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.zly.BearSS.PacketTunnel;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mobilewise.vpn.network-extension";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		18F3C64E2293D7F800D79C4A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = freeWidget/freeWidget.entitlements;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = PN45C5W9UV;
-				INFOPLIST_FILE = freeWidget/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.zly.BearSS.freeWidget;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		18F3C64F2293D7F800D79C4A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = freeWidget/freeWidget.entitlements;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = PN45C5W9UV;
-				INFOPLIST_FILE = freeWidget/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.zly.BearSS.freeWidget;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "vpn-ext_DEV";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -903,29 +689,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		18E914392266C7B5005E6027 /* Build configuration list for PBXNativeTarget "BearFreeTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				18E9143A2266C7B5005E6027 /* Debug */,
-				18E9143B2266C7B5005E6027 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		18E914492266C9B3005E6027 /* Build configuration list for PBXNativeTarget "PacketTunnel" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				18E9144A2266C9B3005E6027 /* Debug */,
 				18E9144B2266C9B3005E6027 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		18F3C64D2293D7F800D79C4A /* Build configuration list for PBXNativeTarget "freeWidget" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				18F3C64E2293D7F800D79C4A /* Debug */,
-				18F3C64F2293D7F800D79C4A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

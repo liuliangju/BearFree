@@ -7,7 +7,6 @@
 //
 
 import Foundation
-import UIKit
 
 public typealias SwipeActionHandler = (SwipeAction, BaseRow, ((Bool) -> Void)?) -> Void
 

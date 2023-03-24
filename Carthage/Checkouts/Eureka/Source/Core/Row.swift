@@ -63,9 +63,6 @@ open class RowOf<T>: BaseRow where T: Equatable{
             return _value
         }
     }
-    
-    /// The reset value of this row. Sets the value property to the value of this row on the resetValue method call.
-    open var resetValue: T?
 
     /// The untyped value of this row.
     public override var baseValue: Any? {
@@ -92,11 +89,6 @@ open class RowOf<T>: BaseRow where T: Equatable{
         validationErrors = rules.flatMap { $0.validateFn(value) }
         #endif
         return validationErrors
-    }
-    
-    /// Resets the value of the row. Setting it's value to it's reset value.
-    public func resetRowValue() {
-        value = resetValue
     }
 
     /// Add a Validation rule for the Row

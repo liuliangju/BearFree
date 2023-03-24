@@ -23,7 +23,6 @@
 // THE SOFTWARE.
 
 import Foundation
-import UIKit
 
 /// Base class for the Eureka cells
 open class BaseCell: UITableViewCell, BaseCellType {

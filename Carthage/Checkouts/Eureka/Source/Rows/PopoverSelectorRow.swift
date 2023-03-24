@@ -23,7 +23,6 @@
 // THE SOFTWARE.
 
 import Foundation
-import UIKit
 
 open class _PopoverSelectorRow<Cell: CellType> : SelectorRow<Cell> where Cell: BaseCell {
 

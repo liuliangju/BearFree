@@ -7,7 +7,6 @@
 //
 
 import Foundation
-import UIKit
 
 public struct Tuple3<A: Equatable, B: Equatable, C: Equatable> {
     public let a: A

@@ -7,7 +7,6 @@
 //
 
 import Foundation
-import UIKit
 
 open class DoublePickerInputCell<A, B> : _PickerInputCell<Tuple<A, B>> where A: Equatable, B: Equatable {
 
