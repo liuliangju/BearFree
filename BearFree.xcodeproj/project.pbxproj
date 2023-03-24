@@ -129,10 +129,6 @@
 		18E9149D22672644005E6027 /* NetworkExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NetworkExtension.framework; path = System/Library/Frameworks/NetworkExtension.framework; sourceTree = SDKROOT; };
 		18E914A022672C91005E6027 /* Eureka.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Eureka.framework; path = Carthage/Build/iOS/Eureka.framework; sourceTree = "<group>"; };
 		18F3C62D2293D7BB00D79C4A /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
-		18F3C6442293D7F800D79C4A /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
-		18F3C6472293D7F800D79C4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
-		18F3C6492293D7F800D79C4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		18F3C6502293D85D00D79C4A /* freeWidget.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = freeWidget.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -183,7 +179,6 @@
 			children = (
 				18E9141B2266C7B4005E6027 /* BearSS */,
 				18E914412266C9B3005E6027 /* PacketTunnel */,
-				18F3C6432293D7F800D79C4A /* freeWidget */,
 				18E9141A2266C7B4005E6027 /* Products */,
 				AE2E93114404A35E87606173 /* Frameworks */,
 			);
@@ -222,17 +217,6 @@
 				18E914452266C9B3005E6027 /* PacketTunnel.entitlements */,
 			);
 			path = PacketTunnel;
-			sourceTree = "<group>";
-		};
-		18F3C6432293D7F800D79C4A /* freeWidget */ = {
-			isa = PBXGroup;
-			children = (
-				18F3C6502293D85D00D79C4A /* freeWidget.entitlements */,
-				18F3C6442293D7F800D79C4A /* TodayViewController.swift */,
-				18F3C6462293D7F800D79C4A /* MainInterface.storyboard */,
-				18F3C6492293D7F800D79C4A /* Info.plist */,
-			);
-			path = freeWidget;
 			sourceTree = "<group>";
 		};
 		AE2E93114404A35E87606173 /* Frameworks */ = {
@@ -417,14 +401,6 @@
 				18E914262266C7B5005E6027 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		18F3C6462293D7F800D79C4A /* MainInterface.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				18F3C6472293D7F800D79C4A /* Base */,
-			);
-			name = MainInterface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
